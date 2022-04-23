@@ -1,0 +1,1 @@
+docker run -d -p 80:80 --name phpmessages_container -v C:/workspace/docker/2_VOLUMES/:/var/www/html/ --rm phpmessages
