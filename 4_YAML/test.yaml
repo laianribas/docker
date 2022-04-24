@@ -1,2 +1,38 @@
 nome: 'Laian'
 idade: 25
+
+objeto:
+  versao: 2
+  arquivo: 'test.txt'
+
+#comentário
+
+versao: 2
+versao_completa: 3.1
+
+string_sem_aspas: texto valido
+string_com_aspas: 'outro texto valido'
+
+dados_nulos1: ~
+dados_nulos2: null
+
+verdadeiro1: True
+verdadeiro2: On
+falso1: False
+falso2: Off
+
+lista1: [1, 2, 3, 4, 5, 6]
+lista2:
+  - 1
+  - teste
+  - On
+  - objeto: { atributo1: atb1, atributo2: atb2 }
+
+obj1: { a: 1, b: 2, c: 3, d: 4, obj_interno: { a: 1, b: 2, c: 3 } }
+obj2:
+  a: 1
+  b: 2
+  c: 3
+  obj2_interno:
+    a: 1
+    b: 2
